@@ -25,7 +25,7 @@ class PostsController < ApplicationController
         render 'edit'
       end
   end
-  
+
   def create
     @post = Post.new(post_params)
 
